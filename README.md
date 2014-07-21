@@ -1,4 +1,4 @@
-# format-usd [![Build Status](https://secure.travis-ci.org/cfpb/unformat-usd.png?branch=master)](http://travis-ci.org/cfpb/unformat-usd)
+# unformat-usd [![Build Status](https://secure.travis-ci.org/cfpb/unformat-usd.png?branch=master)](http://travis-ci.org/cfpb/unformat-usd)
 
 > Convert a United States dollar-formatted string into a number.
 
