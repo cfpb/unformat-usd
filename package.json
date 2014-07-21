@@ -1,6 +1,6 @@
 {
   "name": "unformat-usd",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "index.js",
   "description": "Convert a United States dollar-formatted string into a number.",
   "homepage": "https://github.com/cfpb/unformat-usd",
