@@ -20,7 +20,7 @@ var unFormatUSD = require('../index.js');
     test.ifError(value)
 */
 
-exports.formatUSD = {
+exports.unFormatUSD = {
   setUp: function(done) {
     // setup here
     done();
