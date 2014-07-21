@@ -1,0 +1,29 @@
+{
+  "name": "unformat-usd",
+  "version": "0.1.0",
+  "main": "index.js",
+  "description": "Convert a USD-formatted string to a number",
+  "homepage": "https://github.com/cfpb/unformat-usd",
+  "bugs": "https://github.com/cfpb/unformat-usd/issues",
+  "author": {
+    "name": "Consumer Financial Protection Bureau",
+    "url": "http://consumerfinance.gov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cfpb/unformat-usd"
+  },
+  "license": "Public Domain",
+  "keywords": [
+    "format-usd",
+    "currency",
+    "usd",
+    "convert"
+  ],
+  "devDependencies": {
+    "nodeunit": "~0.8.6"
+  },
+  "scripts": {
+    "test": "nodeunit test/unformat-usd-tests.js"
+  }
+}
