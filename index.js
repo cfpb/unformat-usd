@@ -4,7 +4,7 @@
  *   string was not passed.
  */
 var unFormatUSD = function( str ) {
-  return typeof str.replace !== 'undefined' ? parseFloat(str.replace(/[^0-9\.]/g,'')) || str : str;
+  return typeof str === 'string' ? parseFloat(str.replace(/[^0-9\.]/g,'')) || str : str;
 };
 
 module.exports = unFormatUSD;
