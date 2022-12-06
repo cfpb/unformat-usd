@@ -25,7 +25,8 @@ Please read the [Contributing guidelines](CONTRIBUTING.md).
 
 ### Running Tests
 
-We are using [nodeunit](https://github.com/caolan/nodeunit) to test. To run tests, first install nodeunit and any dependencies via npm:
+We are using [jest](https://github.com/facebook/jest) to test.
+To run tests, first install jest and any dependencies via yarn:
 
 ```
 yarn install
