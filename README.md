@@ -7,13 +7,13 @@
 First install [node.js](http://nodejs.org/). Then:
 
 ```sh
-npm install unformat-usd --save
+yarn add unformat-usd
 ```
 
 ## Usage
 
 ```javascript
-var unFormatUSD = require('unformat-usd');
+import { unFormatUSD } from 'unformat-usd';
 unFormatUSD('$1,234'); // 1234
 unFormatUSD('$1,234.56'); // 1234.56
 unFormatUSD('foo bar'); // 'foo bar'
@@ -25,16 +25,23 @@ Please read the [Contributing guidelines](CONTRIBUTING.md).
 
 ### Running Tests
 
-We are using [nodeunit](https://github.com/caolan/nodeunit) to test. To run tests, first install nodeunit and any dependencies via npm:
+We are using [jest](https://github.com/facebook/jest) to test.
+To run tests, first install jest and any dependencies via yarn:
 
 ```
-npm install
+yarn install
 ```
 
 Run tests with:
 
 ```
-npm test
+yarn test
+```
+
+Lint with:
+
+```
+yarn lint
 ```
 
 ## License
